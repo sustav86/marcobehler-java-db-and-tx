@@ -16,8 +16,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.3</version>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
+                    <source>1.13</source>
+                    <target>1.13</target>
                 </configuration>
             </plugin>
         </plugins>
@@ -40,6 +40,11 @@
             <version>1.4.199</version>
         </dependency>
 
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.19</version>
+        </dependency>
 
         <!-- for part 2: additional -->
         <dependency>
@@ -58,6 +63,12 @@
             <version>1.0.6.2</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/jndi/jndi -->
+        <dependency>
+            <groupId>javax.naming</groupId>
+            <artifactId>jndi</artifactId>
+            <version>1.2.1</version>
+        </dependency>
 
         <!-- for part 3: spring -->
         <dependency>
