@@ -55,7 +55,7 @@ public class TransactionalRequiredExercise {
     @Test
     public void exercise() {
         // the getAccountBalance call happens in a transaction
-        BankTeller teller = new BankTeller();
+//        BankTeller teller = new BankTeller();
 //        Long balance = teller.getAccountBalance("Donald Trump");
         Long balance = teller.getAccountBalance("Donald Trump");
         assertThat(balance, equalTo(Long.MAX_VALUE));

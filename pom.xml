@@ -64,11 +64,11 @@
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/jndi/jndi -->
-        <dependency>
-            <groupId>javax.naming</groupId>
-            <artifactId>jndi</artifactId>
-            <version>1.2.1</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>javax.naming</groupId>-->
+<!--            <artifactId>jndi</artifactId>-->
+<!--            <version>1.2.1</version>-->
+<!--        </dependency>-->
 
         <!-- for part 3: spring -->
         <dependency>
